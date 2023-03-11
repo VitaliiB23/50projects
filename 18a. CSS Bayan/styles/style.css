@@ -16,7 +16,7 @@
   }
   body {
     font-family: 'Roboto Mono', sans-serif;
-    background-color:rgb(65, 62, 59);
+    background-color:rgb(216, 247, 195);
     color: white;
     font-size: 1em;
   }
@@ -50,7 +50,7 @@
   }
   h1 {
     text-align: start;
-    text-shadow: 0.5rem 0.5rem 1rem black;
+    text-shadow: 0.5rem 0.5rem 1rem rgb(142, 203, 247);
   }
   .mem_container__title {
     font-size: 1.2rem;
@@ -62,7 +62,7 @@
     background-color: rgb(228, 222, 222);
   }
   .mem_container__btn {
-    background-color: rgb(25, 121, 97);
+    background-color: rgb(94, 172, 244);
     padding: 0.7rem;
   }
   .label_img {
@@ -79,7 +79,7 @@
   }
   .mem_container:hover .arrow_btn,
   .mem_container:focus .arrow_btn {
-    background: url('assets/arrow.svg') center/cover no-repeat;
+    background: url('../assets/arrow.svg') center/cover no-repeat;
   }
   .mem__input:checked~label .arrow_btn,
   .mem_container__item:hover .arrow_btn,
@@ -113,7 +113,7 @@
       padding: 0;
     }
     .arrow_btn {
-      background: url('assets/arrow.svg') center/cover no-repeat;
+      background: url('../assets/arrow.svg') center/cover no-repeat;
     }
     .mem_container__item:hover .arrow_btn {
       transform: rotate(0);
